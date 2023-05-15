@@ -1,0 +1,20 @@
+.header{
+    width: 100%;
+    max-width: 105rem;
+}
+.main-nav{
+    width: 33%;
+}
+.link{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Barlow', sans-serif;
+}
+.contact-button{
+    border: none;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(212, 27%, 19%);
+    padding: 0.7rem 1.7rem;
+    border-radius: 2rem;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
