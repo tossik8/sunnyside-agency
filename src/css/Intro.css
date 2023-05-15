@@ -1,7 +1,7 @@
 .landing-wrapper{
-    background: url(../images/desktop/image-header.jpg) no-repeat left;
+    background: url(../images/desktop/image-header.jpg) no-repeat bottom;
     background-size: cover;
-    height: 50rem;
+    height: 49.65rem;
 }
 .title{
     font-size: 3.7rem;
@@ -13,4 +13,9 @@
 }
 .arrow{
     margin-top: 6.2rem;
+}
+@media screen and (min-width: 1550px){
+    .arrow{
+        margin-top: 3rem;
+    }
 }
