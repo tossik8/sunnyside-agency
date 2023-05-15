@@ -1,16 +1,21 @@
 import './App.css'
-import Header from './components/Header'
+import Footer from './components/Footer'
+import Gallery from './components/Gallery'
+import Grid from './components/Grid'
+import Intro from './components/Intro'
+import Testimonials from './components/Testimonials'
 
 function App() {
 
   return (
     <>
-      <div className="landing-wrapper d-flex flex-column align-items-center">
-        <Header/>
-        <h1 className="title">WE ARE CREATIVES</h1>
-        <img className="arrow" src="../images/icon-arrow-down.svg" alt="Arrow down." />
-      </div>
-
+      <Intro/>
+      <main>
+        <Grid/>
+        <Testimonials/>
+        <Gallery/>
+      </main>
+      <Footer/>
     </>
   )
 }
