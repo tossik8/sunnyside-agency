@@ -5,9 +5,10 @@ function App() {
 
   return (
     <>
-      <div className="landing-wrapper">
+      <div className="landing-wrapper d-flex flex-column align-items-center">
         <Header/>
-        <h1>We are creatives</h1>
+        <h1 className="title my-5">WE ARE CREATIVES</h1>
+        <img className="arrow" src="../images/icon-arrow-down.svg" alt="Arrow down." />
       </div>
 
     </>
