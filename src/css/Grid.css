@@ -1,6 +1,9 @@
 .grid-row{
     width: 100%;
 }
+.grid-image{
+    width: 100%;
+}
 .seo-div{
     padding: 0 7rem;
 }
@@ -34,10 +37,10 @@
     background-color: hsla(7, 99%, 70%, 0.4);
 }
 .cherry-background{
-    background: url(../../images/desktop/image-graphic-design.jpg);
+    background-image: url(../../images/desktop/image-graphic-design.jpg);
 }
 .orange-background{
-    background: url(../../images/desktop/image-photography.jpg);
+    background-image: url(../../images/desktop/image-photography.jpg);
 }
 .cherry-background, .orange-background{
     height: 37rem;
@@ -58,4 +61,12 @@
 }
 .photography-text{
     color: hsl(198, 62%, 26%);
+}
+@media screen and (max-width: 375px) {
+    .orange-background{
+        background-image: url(../../images/mobile/image-photography.jpg);
+    }
+    .cherry-background{
+        background-image: url(../../images/mobile/image-graphic-design.jpg);;
+    }
 }

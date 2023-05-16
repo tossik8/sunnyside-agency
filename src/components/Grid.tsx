@@ -10,10 +10,16 @@ const Grid = () => {
           <a className="learn-more ms-1" href="#">LEARN MORE</a>
           <div className="underline yellow"/>
         </div>
-        <img className="col-6 px-0" src="../../images/desktop/image-transform.jpg" alt="An egg on a yellow background." />
+        <picture className="col-6 px-0">
+          <source srcSet="../../images/mobile/image-transform.jpg" media="(max-width: 375px)"/>
+          <img className="grid-image" src="../../images/desktop/image-transform.jpg" alt="An egg on a yellow background." />
+        </picture>
       </div>
       <div className="row grid-row m-0">
-        <img className="col-6 px-0" src="../../images/desktop/image-stand-out.jpg" alt="A pink cup on a pink background." />
+        <picture className="col-6 px-0">
+          <source srcSet="../../images/mobile/image-stand-out.jpg" media="(max-width: 375px)"/>
+          <img className="grid-image" src="../../images/desktop/image-stand-out.jpg" alt="A pink cup on a pink background." />
+        </picture>
         <div className="col-6 d-flex flex-column justify-content-center seo-div">
           <h3 className="seo-title">Stand out to the right audience</h3>
           <p className="seo-text mt-3 mb-4">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
