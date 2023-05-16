@@ -1,0 +1,61 @@
+.grid-row{
+    width: 100%;
+}
+.seo-div{
+    padding: 0 7rem;
+}
+.seo-title{
+    font-size: 2.3rem;
+    width: 85%;
+}
+.seo-text{
+    color: hsl(232, 10%, 55%);
+    font-family: 'Barlow', sans-serif;
+}
+.learn-more, .seo-title{
+    color: hsl(212, 27%, 19%);
+    font-family: 'Fraunces', serif;
+}
+.learn-more{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.underline{
+    width: 8.5rem;
+    height: 8px;
+    margin-top: -0.6rem;
+    z-index: -1;
+    border-radius: 1rem;
+}
+.yellow{
+    background-color: hsla(51, 100%, 49%, 0.4);
+}
+.pink{
+    background-color: hsla(7, 99%, 70%, 0.4);
+}
+.cherry-background{
+    background: url(../../images/desktop/image-graphic-design.jpg);
+}
+.orange-background{
+    background: url(../../images/desktop/image-photography.jpg);
+}
+.cherry-background, .orange-background{
+    height: 37rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.skill-title{
+    font-family: 'Fraunces', serif;
+}
+.skill-text{
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    width: 50%;
+}
+.graphic-design-text{
+    color: hsl(167, 40%, 24%);
+}
+.photography-text{
+    color: hsl(198, 62%, 26%);
+}
