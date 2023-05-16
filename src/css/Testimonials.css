@@ -1,0 +1,38 @@
+.testimonials-section{
+    margin: 7rem 0;
+}
+.article{
+    width: 19.7rem;
+}
+.testimonials-title{
+    margin-bottom: 4rem;
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 0.3rem;
+}
+.articles{
+    width: 80%;
+}
+.profile-picture{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 4rem;
+}
+.testimonial{
+    color: hsl(213, 9%, 39%);
+    text-align: center;
+}
+.author{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 27%, 19%);
+    margin-bottom: 0.1rem;
+    font-size: 1.1rem;
+}
+.testimonial, .job{
+    font-family: 'Barlow', sans-serif;
+}
+.job{
+    color: hsl(210, 4%, 67%);
+    font-size: 0.9rem;
+}
