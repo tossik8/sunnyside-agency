@@ -4,12 +4,11 @@
 .grid-image{
     width: 100%;
 }
-.seo-div{
-    padding: 0 7rem;
+.content-wrapper{
+    width: 25.6rem;
 }
 .seo-title{
     font-size: 2.3rem;
-    width: 85%;
 }
 .seo-text{
     color: hsl(232, 10%, 55%);
@@ -45,7 +44,6 @@
 .cherry-background, .orange-background{
     height: 37rem;
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: top;
 }
 .skill-title{
