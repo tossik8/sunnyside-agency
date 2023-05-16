@@ -1,7 +1,7 @@
 import "../css/Gallery.css"
 const Gallery = () => {
   return (
-    <section>
+    <section id="projects">
       <picture>
         <source srcSet="../../images/mobile/image-gallery-milkbottles.jpg" media="(max-width: 375px)"/>
         <img className="gallery-image" src="../../images/desktop/image-gallery-milkbottles.jpg" alt="Milk bottles." />

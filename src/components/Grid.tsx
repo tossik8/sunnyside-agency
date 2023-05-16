@@ -15,7 +15,7 @@ const Grid = () => {
   }
 
   return (
-    <section className="container-fluid px-0">
+    <section id="about" className="container-fluid px-0">
       <div className="row mx-0">
         <div className="col-6 d-flex justify-content-center seo-div align-items-center">
           <div className="content-wrapper">
@@ -44,7 +44,7 @@ const Grid = () => {
           </div>
         </div>
       </div>
-      <div className="row grid-row m-0">
+      <section id="services" className="row grid-row m-0">
         <div className="col-6 px-0 cherry-background d-flex flex-column align-items-center justify-content-end">
           <h3 className="skill-title graphic-design-text">Graphic Design</h3>
           <p className="skill-text graphic-design-text mt-3 pb-5">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
@@ -53,7 +53,7 @@ const Grid = () => {
           <h3 className="skill-title photography-text">Photography</h3>
           <p className="skill-text photography-text mt-3 pb-5">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
         </div>
-      </div>
+      </section>
     </section>
   )
 }
