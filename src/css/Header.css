@@ -17,3 +17,7 @@
     font-family: 'Fraunces', serif;
     font-weight: 700;
 }
+.contact-button:hover{
+    background-color: hsla(0, 0%, 100%, 0.4);
+    color: hsl(0, 0%, 100%);
+}

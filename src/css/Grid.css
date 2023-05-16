@@ -35,6 +35,12 @@
 .pink{
     background-color: hsla(7, 99%, 70%, 0.4);
 }
+.yellow.hovered{
+    background-color: hsl(51, 100%, 49%);
+}
+.pink.hovered{
+    background-color: hsl(7, 99%, 70%);
+}
 .cherry-background{
     background-image: url(../../images/desktop/image-graphic-design.jpg);
 }

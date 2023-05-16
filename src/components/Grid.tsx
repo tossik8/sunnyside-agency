@@ -1,6 +1,19 @@
+import React from "react"
 import "../css/Grid.css"
 
 const Grid = () => {
+
+  const handleMouseOver = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    const target = e.target as HTMLButtonElement;
+    const sibling = target.nextSibling as HTMLElement;
+    sibling.classList.add("hovered");
+  }
+  const handleMouseLeave = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    const target = e.target as HTMLButtonElement;
+    const sibling = target.nextSibling as HTMLElement;
+    sibling.classList.remove("hovered");
+  }
+
   return (
     <section className="container-fluid px-0">
       <div className="row mx-0">
@@ -8,7 +21,7 @@ const Grid = () => {
           <div className="content-wrapper">
             <h3 className="seo-title">Transform your brand</h3>
             <p className="seo-text mt-3 mb-4">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
-            <a className="learn-more ms-1" href="#">LEARN MORE</a>
+            <a onMouseOver={e => handleMouseOver(e)} onMouseLeave={e => handleMouseLeave(e)} className="learn-more ms-1" href="#">LEARN MORE</a>
             <div className="underline yellow"/>
           </div>
         </div>
@@ -26,7 +39,7 @@ const Grid = () => {
           <div className="content-wrapper">
             <h3 className="seo-title">Stand out to the right audience</h3>
             <p className="seo-text mt-3 mb-4">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
-            <a className="learn-more ms-1" href="#">LEARN MORE</a>
+            <a onMouseOver={e => handleMouseOver(e)} onMouseLeave={e => handleMouseLeave(e)} className="learn-more ms-1" href="#">LEARN MORE</a>
             <div className="underline pink"/>
           </div>
         </div>
