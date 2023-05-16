@@ -1,0 +1,25 @@
+.footer{
+    padding: 5rem 0;
+    background-color: hsl(168, 59%, 74%);
+}
+.footer-nav{
+    width: 20rem;
+    margin-bottom: 4rem;
+}
+.footer-link{
+    font-family: 'Barlow', sans-serif;
+    color:hsl(168, 34%, 41%);
+}
+.footer-link:hover{
+    color: hsl(0, 0%, 100%);
+}
+.media-icons{
+    width: 9rem;
+}
+.media-icon{
+    fill: hsl(168, 45%, 32%);
+}
+.media-icon:hover{
+    cursor: pointer;
+    fill: hsl(0, 0%, 100%);
+}
