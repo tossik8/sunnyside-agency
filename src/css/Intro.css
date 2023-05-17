@@ -19,6 +19,11 @@
         margin-top: 3rem;
     }
 }
+@media screen and (max-width: 790px) {
+    .title{
+        font-size: 3rem;
+    }
+}
 @media screen and (max-width: 375px) {
     .landing-wrapper{
         background: url(../images/mobile/image-header.jpg) no-repeat bottom;
