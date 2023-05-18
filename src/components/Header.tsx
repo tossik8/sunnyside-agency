@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "../css/Header.css"
 
 const Header = () => {
@@ -6,7 +6,7 @@ const Header = () => {
   const menuButton = useRef<HTMLButtonElement>(null);
   const [isOpen, setIsOpen] = useState(false);
 
-  const setNavigation = () => {
+  const setNavigation = () : void => {
     if(document.documentElement.clientWidth < 710){
       navTag.current!.classList.remove("active");
       navTag.current!.classList.add("inactive");
@@ -26,8 +26,9 @@ const Header = () => {
       }
     }
   }
-
-  window.onload = () => setNavigation();
+  useEffect(() => {
+    setNavigation();
+  }, []);
   window.onresize = () => setNavigation();
 
   const handleClick = () => {

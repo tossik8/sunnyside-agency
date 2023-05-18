@@ -66,6 +66,11 @@
 .photography-text{
     color: hsl(198, 62%, 26%);
 }
+@media screen and (min-width: 1850px) {
+    .skill-text{
+        margin-bottom: -1rem;
+    }
+}
 @media screen and (max-width: 375px) {
     .orange-background{
         background-image: url(../../images/mobile/image-photography.jpg);
