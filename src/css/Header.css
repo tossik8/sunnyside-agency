@@ -21,3 +21,13 @@
     background-color: hsla(0, 0%, 100%, 0.4);
     color: hsl(0, 0%, 100%);
 }
+.menu-button{
+    border: none;
+    background-color: transparent;
+}
+.active{
+    display: initial;
+}
+.inactive{
+    display: none;
+}
