@@ -18,6 +18,12 @@ const Header = () => {
       navTag.current!.classList.add("active");
       menuButton.current!.classList.remove("active");
       menuButton.current!.classList.add("inactive");
+      if(isOpen){
+        document.getElementsByClassName("menu")[0].classList.add("inactive");
+        document.getElementsByClassName("menu")[0].classList.remove("active");
+        menuButton.current!.style.opacity = "1";
+        setIsOpen(false);
+      }
     }
   }
 
@@ -40,7 +46,7 @@ const Header = () => {
   }
 
   return (
-    <header className="d-flex flex-wrap px-5 py-4 justify-content-between align-items-center header">
+    <header className="d-flex flex-wrap px-4 px-sm-5 py-4 justify-content-between align-items-sm-center header">
         <img src="../../images/logo.svg" alt="Sunnyside logo." />
         <nav ref={navTag} className="main-nav inactive">
             <ul className="d-flex justify-content-between align-items-center ps-0 mb-0">
@@ -50,7 +56,7 @@ const Header = () => {
                 <li className="list-group-item"><button className="contact-button">CONTACT</button></li>
             </ul>
         </nav>
-        <button onClick={handleClick} ref={menuButton} className="menu-button d-flex align-items-center px-0 inactive"><img src="../../images/icon-hamburger.svg" alt="Menu icon."/></button>
+        <button onClick={handleClick} ref={menuButton} className="menu-button p-0 pb-1 inactive"><img src="../../images/icon-hamburger.svg" alt="Menu icon."/></button>
         <div className="menu mt-3 py-4 inactive">
           <ul className="d-flex flex-column justify-content-between align-items-center ps-0 mb-0">
             <li className="list-group-item mb-3"><a className="text-decoration-none link menu-link" href="#about">About</a></li>
