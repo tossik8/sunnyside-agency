@@ -29,6 +29,22 @@
     background-color: hsl(0, 0%, 100%);
     flex-basis: 100%;
     z-index: 1;
+    -webkit-filter: drop-shadow(0 1px 10px rgba(113, 158, 206, 0.8));
+    filter: drop-shadow(0 1px 10px rgba(113, 158, 206, 0.8));
+}
+.menu::before,
+.menu::after {
+    content: '';
+    position: absolute;
+    top: -1.6em;
+    right: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+.menu::before {
+    border-width: 0.8rem;
+    border-right-color: hsl(0, 0%, 100%);
+    border-bottom-color: hsl(0, 0%, 100%);
 }
 .contact-menu-button{
     background-color: hsl(51, 100%, 49%);

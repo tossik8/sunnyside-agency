@@ -58,7 +58,7 @@ const Header = () => {
             </ul>
         </nav>
         <button onClick={handleClick} ref={menuButton} className="menu-button p-0 pb-1 inactive"><img src="../../images/icon-hamburger.svg" alt="Menu icon."/></button>
-        <div className="menu mt-3 py-4 inactive">
+        <div className="menu mt-5 py-4 inactive">
           <ul className="d-flex flex-column justify-content-between align-items-center ps-0 mb-0">
             <li className="list-group-item mb-3"><a className="text-decoration-none link menu-link" href="#about">About</a></li>
             <li className="list-group-item mb-3"><a className="text-decoration-none link menu-link" href="#services">Services</a></li>
