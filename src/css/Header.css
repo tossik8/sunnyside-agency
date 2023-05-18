@@ -25,6 +25,21 @@
     border: none;
     background-color: transparent;
 }
+.menu{
+    background-color: hsl(0, 0%, 100%);
+    flex-basis: 100%;
+    z-index: 1;
+}
+.contact-menu-button{
+    background-color: hsl(51, 100%, 49%);
+}
+.contact-menu-button:hover{
+    background-color: hsl(213, 9%, 39%);
+    color: hsl(51, 100%, 49%);
+}
+.menu-link{
+    color:hsl(213, 9%, 39%);
+}
 .active{
     display: initial;
 }
