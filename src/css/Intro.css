@@ -2,21 +2,24 @@
     background: url(../images/desktop/image-header.jpg) no-repeat bottom;
     background-size: cover;
     height: 49.65rem;
+    position: relative;
 }
 .title{
+    top: 8rem;
+    position: absolute;
     font-size: 3.7rem;
     font-family: 'Fraunces', serif;
     color: hsl(0, 0%, 100%);
     word-spacing: 0.3rem;
     letter-spacing: 0.5rem;
-    margin-top: 5rem;
 }
 .arrow{
-    margin-top: 6.2rem;
+    position: absolute;
+    top: 45%;
 }
 @media screen and (min-width: 1550px){
     .arrow{
-        margin-top: 3rem;
+        top: 38%;
     }
 }
 @media screen and (max-width: 790px) {
@@ -24,8 +27,23 @@
         font-size: 3rem;
     }
 }
+@media screen and (max-width: 400px) {
+    .title{
+        font-size: 2.5rem;
+    }
+}
 @media screen and (max-width: 375px) {
     .landing-wrapper{
         background: url(../images/mobile/image-header.jpg) no-repeat bottom;
+    }
+}
+@media screen and (max-width: 353px) {
+    .title{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 279px) {
+    .title{
+        font-size: 1.5rem;
     }
 }

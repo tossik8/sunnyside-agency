@@ -36,3 +36,8 @@
     color: hsl(210, 4%, 67%);
     font-size: 0.9rem;
 }
+@media screen and (max-width: 400px) {
+    .testimonials-title{
+        font-size: 1.1rem;
+    }
+}

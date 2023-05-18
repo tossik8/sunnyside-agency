@@ -74,4 +74,8 @@
         background-image: url(../../images/mobile/image-graphic-design.jpg);;
     }
 }
-
+@media screen and (max-width: 350px) {
+    .skill-text{
+        width: 94%;
+    }
+}
