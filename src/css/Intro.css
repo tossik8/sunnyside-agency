@@ -1,5 +1,5 @@
 .landing-wrapper{
-    background: url(../images/desktop/image-header.jpg) no-repeat bottom;
+    background: url(/desktop/image-header.jpg) no-repeat bottom;
     background-size: cover;
     height: 49.65rem;
     position: relative;
@@ -39,7 +39,7 @@
 }
 @media screen and (max-width: 375px) {
     .landing-wrapper{
-        background: url(../images/mobile/image-header.jpg) no-repeat bottom;
+        background: url(/mobile/image-header.jpg) no-repeat bottom;
     }
 }
 @media screen and (max-width: 353px) {

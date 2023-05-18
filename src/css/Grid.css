@@ -42,10 +42,10 @@
     background-color: hsl(7, 99%, 70%);
 }
 .cherry-background{
-    background-image: url(../../images/desktop/image-graphic-design.jpg);
+    background-image: url(/desktop/image-graphic-design.jpg);
 }
 .orange-background{
-    background-image: url(../../images/desktop/image-photography.jpg);
+    background-image: url(/desktop/image-photography.jpg);
 }
 .cherry-background, .orange-background{
     height: 37rem;
@@ -73,10 +73,10 @@
 }
 @media screen and (max-width: 375px) {
     .orange-background{
-        background-image: url(../../images/mobile/image-photography.jpg);
+        background-image: url(/mobile/image-photography.jpg);
     }
     .cherry-background{
-        background-image: url(../../images/mobile/image-graphic-design.jpg);;
+        background-image: url(/mobile/image-graphic-design.jpg);;
     }
 }
 @media screen and (max-width: 350px) {

@@ -48,7 +48,7 @@ const Header = () => {
 
   return (
     <header className="d-flex flex-wrap px-4 px-sm-5 py-4 justify-content-between align-items-sm-center header">
-        <img src="../../images/logo.svg" alt="Sunnyside logo." />
+        <img src="/logo.svg" alt="Sunnyside logo." />
         <nav ref={navTag} className="main-nav inactive">
             <ul className="d-flex justify-content-between align-items-center ps-0 mb-0">
                 <li className="list-group-item"><a className="text-decoration-none link" href="#about">About</a></li>
@@ -57,7 +57,7 @@ const Header = () => {
                 <li className="list-group-item"><button className="contact-button">CONTACT</button></li>
             </ul>
         </nav>
-        <button onClick={handleClick} ref={menuButton} className="menu-button p-0 pb-1 inactive"><img src="../../images/icon-hamburger.svg" alt="Menu icon."/></button>
+        <button onClick={handleClick} ref={menuButton} className="menu-button p-0 pb-1 inactive"><img src="/icon-hamburger.svg" alt="Menu icon."/></button>
         <div className="menu mt-5 py-4 inactive">
           <ul className="d-flex flex-column justify-content-between align-items-center ps-0 mb-0">
             <li className="list-group-item mb-3"><a className="text-decoration-none link menu-link" href="#about">About</a></li>

@@ -26,14 +26,14 @@ const Grid = () => {
           </div>
         </div>
         <picture className="col-md-6 px-0">
-          <source srcSet="../../images/mobile/image-transform.jpg" media="(max-width: 375px)"/>
-          <img className="grid-image" src="../../images/desktop/image-transform.jpg" alt="An egg on a yellow background." />
+          <source srcSet="/mobile/image-transform.jpg" media="(max-width: 375px)"/>
+          <img className="grid-image" src="/desktop/image-transform.jpg" alt="An egg on a yellow background." />
         </picture>
       </div>
       <div className="row row-cols-md-2 row-cols-sm-1 grid-row m-0">
         <picture className="col-md-6 px-0">
-          <source srcSet="../../images/mobile/image-stand-out.jpg" media="(max-width: 375px)"/>
-          <img className="grid-image" src="../../images/desktop/image-stand-out.jpg" alt="A pink cup on a pink background." />
+          <source srcSet="/mobile/image-stand-out.jpg" media="(max-width: 375px)"/>
+          <img className="grid-image" src="/desktop/image-stand-out.jpg" alt="A pink cup on a pink background." />
         </picture>
         <div className="col-md-6 d-flex justify-content-center seo-div align-items-center">
           <div className="content-wrapper d-flex flex-column py-5 p-md-0 align-items-center text-center text-md-start align-items-md-start">

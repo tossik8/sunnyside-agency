@@ -6,7 +6,7 @@ const Intro = () => {
     <div className="landing-wrapper d-flex flex-column align-items-center">
         <Header/>
         <h1 className="title text-center">WE ARE CREATIVES</h1>
-        <img className="arrow" src="../images/icon-arrow-down.svg" alt="Arrow down." />
+        <img className="arrow" src="/icon-arrow-down.svg" alt="Arrow down." />
     </div>
   )
 }
