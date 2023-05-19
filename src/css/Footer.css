@@ -9,6 +9,7 @@
 .footer-link{
     font-family: 'Barlow', sans-serif;
     color:hsl(168, 34%, 41%);
+    font-size: 1.1rem;
 }
 .footer-link:hover{
     color: hsl(0, 0%, 100%);

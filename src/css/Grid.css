@@ -8,9 +8,10 @@
     width: 25.6rem;
 }
 .seo-title{
-    font-size: 2.3rem;
+    font-size: 3rem;
 }
 .seo-text{
+    font-size: 1.1rem;
     color: hsl(232, 10%, 55%);
     font-family: 'Barlow', sans-serif;
 }
@@ -69,6 +70,11 @@
 @media screen and (min-width: 1850px) {
     .skill-text{
         margin-bottom: -1rem;
+    }
+}
+@media screen and (max-width: 830px){
+    .seo-title{
+        font-size: 2.3rem;
     }
 }
 @media screen and (max-width: 375px) {

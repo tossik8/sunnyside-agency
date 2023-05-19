@@ -1,8 +1,8 @@
 .testimonials-section{
-    margin: 7rem 0;
+    margin: 10rem 0;
 }
 .article{
-    width: 19.7rem;
+    width: 21.9rem;
 }
 .testimonials-title{
     margin-bottom: 4rem;
@@ -11,9 +11,6 @@
     color: hsl(210, 4%, 67%);
     letter-spacing: 0.3rem;
 }
-.articles{
-    width: 80%;
-}
 .profile-picture{
     width: 4rem;
     height: 4rem;
@@ -21,6 +18,7 @@
 }
 .testimonial{
     color: hsl(213, 9%, 39%);
+    font-size: 1.1rem;
     text-align: center;
 }
 .author{
@@ -37,6 +35,10 @@
     font-size: 0.9rem;
 }
 @media screen and (max-width: 400px) {
+    .article{
+        width: fit-content;
+        padding: 0 0.5rem;
+    }
     .testimonials-title{
         font-size: 1.1rem;
     }

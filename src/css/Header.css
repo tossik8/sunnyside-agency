@@ -6,6 +6,7 @@
 }
 .link{
     color: hsl(0, 0%, 100%);
+    font-size: 1.1rem;
     font-family: 'Barlow', sans-serif;
 }
 .contact-button{
@@ -55,6 +56,7 @@
 }
 .menu-link{
     color:hsl(213, 9%, 39%);
+    font-size: 1.1rem;
 }
 .active{
     display: initial;
