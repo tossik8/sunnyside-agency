@@ -2,7 +2,7 @@ import "../css/Testimonials.css"
 const Testimonials = () => {
   return (
     <section className="testimonials-section d-flex flex-column align-items-center">
-      <h3 className="testimonials-title text-center">CLIENT TESTIMONIALS</h3>
+      <h2 className="testimonials-title text-center">CLIENT TESTIMONIALS</h2>
       <div className="articles d-flex gap-4 justify-content-center flex-wrap">
         <article className="d-flex flex-column align-items-center article">
           <img className="profile-picture" src="/image-emily.jpg" alt="A profile picture of Emily R." />
